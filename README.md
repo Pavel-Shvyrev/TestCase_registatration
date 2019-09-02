@@ -31,7 +31,7 @@
 <strong>Файл test_registration_user.py</strong> (path: `\python_test\test\test_registration_user.py`)
 Содержит сам сценарий теста
 
-<strong>Файл conftest.py</strong> (path: ``\python_test\conftest.py` )
+<strong>Файл conftest.py</strong> (path: `\python_test\conftest.py` )
 В нем описана фикстура - она хранит путь до файла geckodriver.exe . Контролирует запуск и остановку драйвера в начале и конце теста 
 
 <strong>Файл controller.py</strong> (path: `\python_test\fixture\controller.py`)
