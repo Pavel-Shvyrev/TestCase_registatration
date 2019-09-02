@@ -13,6 +13,4 @@ def contrl(request):
 
 
 def pytest_addoption(parser):
-    parser.addoption("--browser_dir", action="store", default="C:\Devel\Tools\geckodriver-v0.24.0-win64\geckodriver.exe")
-
-
+    parser.addoption("--browser_dir", action="store", default="C:\python_test\geckodriver-v0.24.0-win64\geckodriver.exe")
