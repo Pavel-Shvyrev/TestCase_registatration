@@ -19,7 +19,10 @@
     `pip install string`  
     `pip install random`
 5. Запустить тест, при необходимости указать путь до директории содержащей gecodriver. При помощи ключа `--browser_dir` (значение по умолчанию: `C:\python_test\geckodriver-v0.24.0-win64\geckodriver.exe`)  
-    `py.test --browser_dir=C:\python_test\geckodriver-v0.24.0-win64\geckodriver.exe test_registration_user.py`
+    `py.test --browser_dir=C:\python_test\geckodriver-v0.24.0-win64\geckodriver.exe test_registration_user.py`  
+    Если директория проекта рекомендуемая (`C:\python_test\`) то можно запустить тест без аргументов:  
+    `py.test test_registration_user.py`  
+    
 ***
 Описание проекта:
 ----------------
