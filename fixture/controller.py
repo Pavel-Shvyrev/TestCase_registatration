@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from selenium import webdriver
-from fixture.session import SessionHelper
-from fixture.registration import RegistrationHelper
+from pages.login import LoginHelper
+from pages.registration import RegistrationHelper
 
 
 class Controller:
@@ -13,10 +13,10 @@ class Controller:
         #self.driver.set_window_size(1900, 1020)
         self.vars = {}
         self.registration = RegistrationHelper(self)
-        self.session = SessionHelper(self)
+        self.session = LoginHelper(self)
 
     def open_login_page(self):
-        self.driver.get("https://rc.dev.avanpos.com/signin")
+        self.driver.get("http://localhost:4200/login")
 
     # teardown
     def stop_driver(self):

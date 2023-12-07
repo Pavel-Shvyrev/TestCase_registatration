@@ -16,8 +16,8 @@ def random_string_email():
 
 
 def random_string_names():
-    symbols_names = "йцукенгшщзхъфывапролджэячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ"
-    return "".join([random.choice(symbols_names) for i in range(random.randrange(2, 20))])
+    symbols_names = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+    return "".join([random.choice(symbols_names) for i in range(random.randrange(2, 10))])
 
 
 def random_string_phone():
@@ -27,5 +27,5 @@ def random_string_phone():
 
 testdata = [
     User(company_name=random_string_names(), user_name=random_string_names(), user_surname=random_string_names(),
-         phone=random_string_phone(), email=random_string_email(), password="fhewpokjdsf3434343E!!") for i in range(3)
+         phone=random_string_phone(), email=random_string_email(), password="fhewpokjdsf3434343E!!") for i in range(1)
 ]
