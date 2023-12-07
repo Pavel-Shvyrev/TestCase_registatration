@@ -142,3 +142,4 @@ cython_debug/
 *allure_results
 *allure-results
 *allure-report
+/geckodriver-v0.33.0-win64/
